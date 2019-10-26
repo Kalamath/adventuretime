@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+}
+
+.App-header {
+  background-color: white;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: #282c34;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* Heart styling was created by AlexEBall */
+.heart {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin: 10px 50px ;
+  background: #a52a21;
+  box-shadow:
+    /* white shine */
+    0 -8px 0 white,
+    -12px 0 0 white,
+    -8px -4px 0 white,
+    /* top shades */
+    0 -4px 0 0 #c52317,
+    -4px -8px 0 0 #c52317,
+    -8px -8px 0 0 #c52317,
+    -12px -8px 0 0 #c52317,
+    4px -8px 0 0 #c52317,
+    8px -8px 0 0 #c52317,
+    12px -8px 0 0 #c52317,
+    -16px -4px 0 0 #c52317,
+    16px -4px 0 0 #c52317,
+    /* fills my heart */
+    0 0 0 8px #a52a21,
+    -4px 0 0 8px #a52a21,
+    4px 0 0 8px #a52a21,
+    -12px 0 0 4px #a52a21,
+    12px 0 0 4px #a52a21,
+    0 4px 0 8px #a52a21,
+    0 12px 0 4px #a52a21,
+    0 20px 0 0 #a52a21,
+    /* white borders */
+    -8px -8px 0 4px white,
+    8px -8px 0 4px white,
+    -12px -4px 0 4px white,
+    12px -4px 0 4px white,
+    -16px 0 0 4px white,
+    16px 0 0 4px white,
+    -12px 4px 0 4px white,
+    12px 4px 0 4px white,
+    4px 4px 0 8px white,
+    -4px 4px 0 8px white,
+    0 8px 0 8px white,
+    0 16px 0 4px white,
+    0 24px 0 0 white;
+  }
+
+  .hearts {
+      padding: 2px 40px;
+  }
