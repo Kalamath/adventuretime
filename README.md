@@ -1,11 +1,12 @@
 
-# Adventure Time Clicky! -> Check Me Out Brah -> https://adventure-time-clicky.herokuapp.com/
+# Adventure Time Clicky!
 
 ### How To Play:
 
-1. Click a Pic
-2. Don't Click the same Pic Twice!
-3. Have Fun 
+1. Check Me Out, Brah -> https://adventure-time-clicky.herokuapp.com/ 
+2. Click a Pic
+3. Don't Click the same Pic Twice!
+4. Have Fun 
 
 ![BMO](https://github.com/Kalamath/adventuretime/blob/master/src/BMO.gif)
 
