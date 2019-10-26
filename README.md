@@ -7,6 +7,8 @@
 2. Don't Click the same Pic Twice!
 3. Have Fun 
 
+![BMO](https://github.com/Kalamath/adventuretime/blob/master/src/BMO.gif)
+
 ### GIF - The Game
 
 ![BMO](https://github.com/Kalamath/adventuretime/blob/master/src/BMO.gif)
@@ -19,4 +21,4 @@
 
 * Kalamath
 
-![greatDeals](https://github.com/Kalamath/bamazon/blob/master/assets/greatdeals.gif)
+![crazyGuys](https://github.com/Kalamath/adventuretime/blob/master/src/crazyGuys.gif)
