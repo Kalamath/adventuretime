@@ -9,7 +9,7 @@
 
 ### GIF - The Game
 
-![Bamazon](https://github.com/Kalamath/bamazon/blob/master/BMO.gif)
+![Bamazon](https://github.com/Kalamath/bamazon/blob/BMO.gif)
 
 ### What Was Used
 
