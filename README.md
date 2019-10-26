@@ -17,6 +17,13 @@
 
 * React
 
+### Components To Be Added
+
+* Leaderboard
+* More Characters
+* Multiple Difficulties - For Example, a Timed Mode
+* Other Cool Biz
+
 ### Coder
 
 * Kalamath
