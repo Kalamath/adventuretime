@@ -11,7 +11,7 @@
 
 ### GIF - The Game
 
-![BMO](https://github.com/Kalamath/adventuretime/blob/master/src/BMO.gif)
+![Adventure](https://github.com/Kalamath/adventuretime/blob/master/src/adventureTimeClicky.gif)
 
 ### What Was Used
 
