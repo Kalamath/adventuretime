@@ -24,13 +24,18 @@ class App extends Component {
     this.setState({cards: shuffledArray});
     // if clicked an image already clicked set this.state.score = 0; empty clickeadArray, end of if block
     if (this.state.clickedArray.includes(id)) {
-      this.setState({ score: 0, clickedArray: [], message: "Incorrect!! Game Over ☹️ Click an image to start again!", shakeit: "true"});
+      this.setState({ 
+        score: 0, 
+        clickedArray: [], 
+        message: "Aww What The Biz...Game Over? ☹️ Click an image to start again!", 
+        shakeit: "true"
+      });
     }
     else {
       this.setState({
         clickedArray: this.state.clickedArray.concat([id]),
         score: this.state.score + 1,
-        message: "Correct!! 🙂",
+        message: "YUS! 🙂",
         shakeit: "false"
       });
     }
@@ -63,8 +68,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <h3 className="App-intro">
-          <strong>Click an image to earn points, but don't click on the same image twice!</strong> 
-          <p className = "score"><strong>Hearts: {this.renderHeartsearts} | Score: {this.state.score} | TopScore: {this.state.topScore}</strong></p>
+          <strong>Click an image to earn points, but don't click on the same image twice!</strong>
+          <div className="hearts"><strong>Lifes: {this.state.hearts}</strong></div> 
+          <p className="score"><strong>Score: {this.state.score} | TopScore: {this.state.topScore}</strong></p>
           <p className="message"><strong>{this.state.message}</strong></p>
         </h3>
         <Wrapper
